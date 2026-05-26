@@ -1,0 +1,48 @@
+.sec1{
+    background: #223f9d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 0px 0px 25px 25px; 
+   
+}
+.title{
+    color: #d4c937;
+    direction: rtl;
+    text-align: right;
+    font-size: 120px;
+    font-family: "Aref Ruqaa", serif;
+}
+.image img{
+    width: 200px;
+}
+.sec2{
+    background: #385cd4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    border-radius: 15px;
+    
+}
+.sec2 button{
+    background: #223f9d;
+     color: #d4c937;
+     border: none;
+     border-radius:  15px ;
+     padding: 40px;
+     font-size: 50px;
+}
+.sec2 button:hover{
+    background:#627edd ;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-color: #385cd4;
+    
+}
